@@ -1,3 +1,1 @@
-# Template Mod
-
-Edit about.md to change this
+keeps your icons right-side up :D
