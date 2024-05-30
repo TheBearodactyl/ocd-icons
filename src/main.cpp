@@ -11,11 +11,10 @@ class $modify(PlayLayer) {
 
     bool enabled = Mod::get()->getSettingValue<bool>("enabled");
     bool no_anim = Mod::get()->getSettingValue<bool>("no-anim");
-    float rotdeg = Mod::get()->getSettingValue<double>("rotdeg");
 
     if (enabled) {
-      this->m_player1->setRotation(rotdeg);
-      this->m_player2->setRotation(rotdeg);
+      this->m_player1->setRotation(0.f);
+      this->m_player2->setRotation(0.f);
 
       if (no_anim) {
         if (this->m_player1->m_isRobot) {

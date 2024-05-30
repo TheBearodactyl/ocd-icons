@@ -22,14 +22,6 @@
       "description": "Disables animations for\nrobot and spider",
       "name": "Disable animations",
       "type": "bool"
-    },
-    "rotdeg": {
-      "default": 0,
-      "description": "How many degrees to rotate\nthe icons",
-      "max": 360,
-      "min": 0,
-      "name": "Rotation degrees",
-      "type": "float"
     }
   },
   "version": "v1.0.4"
