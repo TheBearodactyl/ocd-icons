@@ -1,21 +1,36 @@
 {
-	"geode": "2.0.0-beta.27",
-	"gd": {
-		"win": "2.204",
- 		"mac": "2.200",
-   "android": "2.205"
-	},
-	"version": "v1.0.2",
-	"id": "the_bearodactyl.ocd-icons",
-	"name": "ocd-icons",
-	"developer": "the bearodactyl",
-	"description": "",
+  "description": "",
+  "developer": "the bearodactyl",
+  "gd": {
+    "android": "2.205",
+    "mac": "2.200",
+    "win": "2.204"
+  },
+  "geode": "2.0.0-beta.27",
+  "id": "the_bearodactyl.ocd-icons",
+  "name": "ocd-icons",
+  "repository": "https://github.com/TheBearodactyl/ocd-icons",
   "settings": {
     "enabled": {
-      "name": "Enable OCD mode",
+      "default": true,
       "description": "R I G H T\nS I D E\nU P",
-      "type": "bool",
-      "default": true
+      "name": "Enable OCD mode",
+      "type": "bool"
+    },
+    "no-anim": {
+      "default": true,
+      "description": "Disables animations for\nrobot and spider",
+      "name": "Disable animations",
+      "type": "bool"
+    },
+    "rotdeg": {
+      "default": 0,
+      "description": "How many degrees to rotate\nthe icons",
+      "max": 360,
+      "min": 0,
+      "name": "Rotation degrees",
+      "type": "float"
     }
-  }
+  },
+  "version": "v1.0.4"
 }
